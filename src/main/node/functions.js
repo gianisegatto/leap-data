@@ -1,11 +1,11 @@
 "use strict";
 
-const MysqlDatasource = require("./datasource/Datasource");
-const MysqlConnectionFactory = require("./factory/MysqlConnectionFactory");
-const MysqlDatasourceFactory = require("./factory/DatasourceFactory");
+const Datasource = require("./datasource/Datasource");
+const SqlQuery = require("./datasource/SqlQuery");
+const DatasourceFactory = require("./factory/DatasourceFactory");
 
 exports = module.exports;
 
-exports.MysqlDatasource = MysqlDatasource;
-exports.MysqlConnectionFactory = MysqlConnectionFactory;
-exports.MysqlDatasourceFactory = MysqlDatasourceFactory;
+exports.Datasource = Datasource;
+exports.SqlQuery = SqlQuery;
+exports.DatasourceFactory = DatasourceFactory;
